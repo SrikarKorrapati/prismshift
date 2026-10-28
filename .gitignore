@@ -1,0 +1,18 @@
+# Build products and local Swift tooling
+.build/
+.swiftpm/
+outputs/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Generated fixtures, downloaded references, and local investigation files
+work/
+.DS_Store
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.codex/
